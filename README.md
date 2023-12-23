@@ -20,11 +20,11 @@ dotnet build
 dotnet run
 ```
 
-##Uso
+## Uso
 
 Visita http://localhost:puerto/swagger en tu navegador para ver la interfaz de usuario de Swagger y probar la API.
 
-##Contacto
+## Contacto
 
 Nombre: Ivan David Medina Vallez
 Email: iveen98@gmail.com
