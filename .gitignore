@@ -1,0 +1,39 @@
+# Archivos de configuración y binarios
+**/appsettings.json
+**/appsettings.Development.json
+**/appsettings.Production.json
+**/bin/
+**/obj/
+**/out/
+
+# Archivos temporales o de compilación
+**/Properties/launchSettings.json
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.dll
+*.pdb
+*.exe
+*.cache
+*.csproj.user
+*.jfm
+
+# Archivos de Visual Studio
+.vs/
+.vscode/
+
+# Paquetes NuGet
+**/packages/
+
+# Archivos de Resharper
+_resharper.*/
+*.resharper
+
+# Archivos de Rider
+.idea/
+
+# Archivos de respaldo creados por Windows
+Desktop.ini
+Thumbs.db
+ehthumbs.db
