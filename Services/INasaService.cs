@@ -6,6 +6,6 @@ namespace Prueba_Vecttor_Nasa.Services
 {
 	public interface INasaService
 	{
-		Task<IEnumerable<NearEarthObject>> GetAsteroidsAsync(int numberOfDays);
+		Task<IEnumerable<NearEarthObject>> GetAsteroidsAsync(int days);
 	}
 }
