@@ -1,3 +1,4 @@
+using Prueba_Vecttor_Nasa.Interfaces;
 using Prueba_Vecttor_Nasa.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -21,6 +22,10 @@ void ConfigureServices(IServiceCollection services)
 	services.AddHttpClient();
 	services.AddScoped<INasaService, NasaService>();
 	services.AddSwaggerGen();
+
+	// Agregar DbContext con la cadena de conexión, como no existe y es relativo lo pongo pero comentado
+	//services.AddDbContext<AsteroidsContext>(options =>
+		//options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
 }
 
 // Método para configurar el pipeline HTTP
