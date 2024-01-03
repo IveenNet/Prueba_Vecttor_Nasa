@@ -24,6 +24,7 @@ public class ServiceConfigurator
 		services.AddControllers();
 		services.AddEndpointsApiExplorer();
 		services.AddHttpClient();
+		services.AddMemoryCache();
 		services.AddScoped<INasaService, NasaService>();
 		services.AddSwaggerGen();
 
